@@ -1,0 +1,31 @@
+* {
+    font-family: cursive;
+    text-transform: capitalize;
+}
+.Header {
+    width: 80em;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.main {
+    text-align: center;
+    color: red;
+}
+.sub {
+    font-weight: bolder;
+
+}
+#btn {
+    border: 3px solid black;
+    position: fixed;
+    border-radius: 10px;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgb(255, 238, 0);
+    z-index: 3;
+}
